@@ -15,7 +15,7 @@ Both the addOrCreate and deleteCart methods are called from the category.js file
 
 The add-remove-items.js file will also hide the delete cart button in the header if there are no items in the cart.
 
-Upon either successfull adding or deleting of items, a banner will appear at the top of the screen to indicate what action took place. (I was trying really hard to hit the V3 store API to include item details here but I absolutely could not get it to return data, just a 200 code, I had to let it go for time reasons.) The cart badge will also update (there is probably a hook for that somewhere but I could not find it so I wrote a function to update the badge).
+Upon either successful adding or deleting of items, a banner will appear at the top of the screen to indicate what action took place. (I was trying really hard to hit the V3 store API to include item details here but I absolutely could not get it to return data, just a 200 code, I had to let it go for time reasons.) The cart badge will also update (there is probably a hook for that somewhere but I could not find it so I wrote a function to update the badge).
 
 p.s. The product id for the Special Item is hardcoded in for right now due to time constraints but I originally wanted to poll the API and get all the products for the current category and add them--that can be done pretty easily.
 
